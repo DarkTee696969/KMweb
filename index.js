@@ -72,4 +72,8 @@ app.get('/show', async (req, res) => {
     }
 })
 
+// เริ่มต้นเซิร์ฟเวอร์
+app.listen(4000, () => {
+    console.log("App listening on port 3000")
+})
 
